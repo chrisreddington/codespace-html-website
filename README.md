@@ -16,7 +16,9 @@ If you are interested in learning more, you should check out the [GitHub Codespa
 
 ### Running the site
 
-- The Codespace installs [Microsoft's Live Preview Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) so that you can preview the website in real-time as you make changes. Note the FAQ about Codespaces, and that you might need to initially load the page and click on a button to approve the content comes from a Codespace. 
+- The Codespace installs [Microsoft's Live Preview Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) so that you can preview the website in real-time as you make changes. Note the FAQ about Codespaces.
+  - Note: By default, the ports are configured to be private. You can find more information about the port forwarding options [here](https://docs.github.com/en/codespaces/reference/security-in-github-codespaces#port-forwarding). Note, that if you change the port to public, it will be accessible by anyone on the internet. 
+- When your Codespace is open, right click the `index.html` file and select `Open Preview`.
 
 ## Acknowledgements
 
